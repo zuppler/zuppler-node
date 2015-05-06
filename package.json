@@ -26,6 +26,6 @@
 	"request": "latest"
     },
     "devDependencies": {
-	"cucumber-js": "latest"
+	"cucumber": "latest"
     }
 }
