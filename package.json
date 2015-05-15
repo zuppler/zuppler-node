@@ -4,7 +4,7 @@
     "description": "A Zuppler helper library",
     "main": "index.js",
     "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
+	"test": "istanbul cover cucumber.js"
     },
     "repository": {
 	"type": "git",
@@ -17,7 +17,7 @@
 	"api"
     ],
     "author": "Iulian Costan",
-    "license": "ISC",
+    "license": "",
     "bugs": {
 	"url": "https://github.com/zuppler/zuppler-node/issues"
     },
@@ -26,8 +26,8 @@
 	"request": "latest"
     },
     "devDependencies": {
+	"codeclimate-test-reporter": "latest",
 	"cucumber": "latest",
 	"istanbul": "latest",
-	"codeclimate-test-reporter": "latest"
     }
 }

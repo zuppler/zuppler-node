@@ -4,6 +4,5 @@ node_js:
 addons:
   code_climate:
     repo_token: 6dc7a486da94f72399f32f84f75079a7f784bb1b61affbc15590041860e54429
-script: istanbul cover cucumber-js
 after_script:
   - codeclimate < coverage/lcov.info
