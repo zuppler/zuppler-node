@@ -28,6 +28,6 @@
     "devDependencies": {
 	"codeclimate-test-reporter": "latest",
 	"cucumber": "latest",
-	"istanbul": "latest",
+	"istanbul": "latest"
     }
 }
