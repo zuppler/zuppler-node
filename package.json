@@ -26,6 +26,8 @@
 	"request": "latest"
     },
     "devDependencies": {
-	"cucumber": "latest"
+	"cucumber": "latest",
+	"istanbul": "latest",
+	"codeclimate-test-reporter": "latest"
     }
 }
